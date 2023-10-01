@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .reset-box {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+	html {
+		@apply reset-box; 
+	}
+	html::-webkit-scrollbar {
+		@apply w-[5px];
+	}
+	/* html::-webkit-scrollbar-thumb {
+		@apply rounded-lg bg-dark-green-slate border-r-[5px];
+	}
+	html::-webkit-scrollbar-track {
+		@apply bg-navy-green;
+	} */
+	body {
+		@apply font-sora text-[#000000] overflow-x-hidden bg-white  ;
+
+    }
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		@apply font-bold;
+	}
+  a {
+    @apply  text-primary-color
+  }
+  button {
+    @apply font-worksans bg-primary-color text-white rounded-lg
+  }
+}
+
+  @layer components {
+.app {
+  @apply max-w-[1440px] my-0 mx-auto flex flex-col justify-between min-h-[100vh]
+}
+.paddings{
+  @apply px-[50px] lg:px-[100px] 
+}
+.footer-head{
+  @apply text-lg font-semibold 
+}
+.footer-p{
+  @apply text-sm font-normal font-worksans
+}
+  }
