@@ -2,7 +2,7 @@ import React, { useRef, useState, useEffect } from "react"
 
 function VideoContainer() {
   // Replace this with your actual video URL
-  const videoURL = ""
+  const videoURL = "http://localhost:5173/video"
 
   const videoRef = useRef(null)
   const [isPlaying, setIsPlaying] = useState(false)

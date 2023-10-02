@@ -14,7 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Landing />}></Route>
           <Route path="/auth" element={<Auth />}></Route>
-          <Route path="/x" element={<VideoRecording />}></Route>
+          <Route path="/video" element={<VideoRecording />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
