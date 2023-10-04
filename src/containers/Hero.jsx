@@ -3,16 +3,16 @@ import React from "react"
 const Hero = () => {
   return (
     <section className="relative">
-      {/* <img
+      <img
+        src="/lightgrid.svg"
+        alt=""
+        className="absolute -z-10 top-80 left-[42rem]"
+      />
+      <img
         src="/grid.136a9256d16888900db0.svg.png"
         alt=""
-        className="absolute -z-10 top-32 right-12"
-      /> */}
-      {/* <img
-        src="/grid.136a9256d16888900db0.svg.png"
-        alt=""
-        className="absolute -z-10 -left-48 "
-      /> */}
+        className="absolute -z-10 right-10 top-20"
+      />
       <div className="paddings py-[130px] flex flex-col items-start lg:flex-row md:items-center max-sm:justify-around justify-between gap-12 md:gap-2 z-40">
         <div className="space-y-10 w-full lg:w-1/2">
           <div className="space-y-2">
