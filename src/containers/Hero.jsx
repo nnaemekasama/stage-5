@@ -6,12 +6,12 @@ const Hero = () => {
       <img
         src="/lightgrid.svg"
         alt=""
-        className="absolute -z-10 top-80 left-[42rem]"
+        className="absolute -z-10 top-80 left-[42rem] max-md:hidden"
       />
       <img
         src="/grid.136a9256d16888900db0.svg.png"
         alt=""
-        className="absolute -z-10 right-10 top-20"
+        className="absolute -z-10 right-10 top-20 max-md:hidden"
       />
       <div className="paddings py-[130px] flex flex-col items-start lg:flex-row md:items-center max-sm:justify-around justify-between gap-12 md:gap-2 z-40">
         <div className="space-y-10 w-full lg:w-1/2">
